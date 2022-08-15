@@ -25,10 +25,10 @@
             <Insets />
          </VBox.margin>
         </ToolBar>
-      <TableView prefHeight="200.0" prefWidth="200.0">
+      <TableView fx:id="tableViewDepartment" prefHeight="200.0" prefWidth="200.0">
         <columns>
-          <TableColumn prefWidth="75.0" text="Id" />
-          <TableColumn prefWidth="75.0" text="Name" />
+          <TableColumn prefWidth="75.0" text="Id" fx:id="tableColumnId"/>
+          <TableColumn prefWidth="75.0" text="Name" fx:id="tableColumnName"/>
         </columns>
       </TableView>
     </children>
