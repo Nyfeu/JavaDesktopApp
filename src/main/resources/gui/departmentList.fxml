@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="388.0" prefWidth="440.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="gui.DepartmentListController">
+    <children>
+        <Label text="Department Registration">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+            <padding>
+                <Insets bottom="10.0" left="20.0" top="20.0" />
+            </padding>
+        </Label>
+        <ToolBar>
+            <Button fx:id="newBtn" alignment="CENTER" layoutX="20.0" layoutY="183.0" mnemonicParsing="false" onAction="#onNewButtonClick" text="New" />
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+        </ToolBar>
+      <TableView prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Id" />
+          <TableColumn prefWidth="75.0" text="Name" />
+        </columns>
+      </TableView>
+    </children>
+</VBox>

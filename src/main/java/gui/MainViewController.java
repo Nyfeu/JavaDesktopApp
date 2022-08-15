@@ -37,7 +37,7 @@ public class MainViewController {
 
         @FXML
         protected void onMenuDepartmentAction() {
-            System.out.println("onMenuDepartmentAction");
+            loadView("departmentList.fxml");
         }
 
         @FXML
