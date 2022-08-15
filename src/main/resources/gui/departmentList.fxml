@@ -25,7 +25,7 @@
             <Insets />
          </VBox.margin>
         </ToolBar>
-      <TableView fx:id="tableViewDepartment" prefHeight="200.0" prefWidth="200.0">
+      <TableView prefHeight="200.0" prefWidth="200.0" fx:id="tableViewDepartment">
         <columns>
           <TableColumn prefWidth="75.0" text="Id" fx:id="tableColumnId"/>
           <TableColumn prefWidth="75.0" text="Name" fx:id="tableColumnName"/>
